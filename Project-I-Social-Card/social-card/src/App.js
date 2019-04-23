@@ -1,14 +1,12 @@
 import React from 'react';
 import './App.css';
-import './components/HeaderComponents/HeaderContainer'
+import HeaderContainer from './components/HeaderComponents/HeaderContainer.js'
 
-const App = () => {
+function App() {
   return (
-    <div className="App">
-      
+    <div className="app-container">
       <HeaderContainer />
-      
-    </div>
+      </div>
   );
 };
 
