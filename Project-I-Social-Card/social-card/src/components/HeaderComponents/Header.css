@@ -1,1 +1,59 @@
 /* All styles for your header Components live here */
+
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  height: auto;
+  margin-left: 60px;
+}
+.image-container {
+  width: 50px;
+  height: 150px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.image {
+    margin-top: 20px;
+    margin-left: 5px;
+
+    height: auto;
+    width: 100%;
+}
+
+.header-title{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 50px;
+    align-items: center;
+}
+
+
+.title{
+    font-weight: bold;
+}
+
+
+
+
+.at{
+    font-size: 15px;
+    color: darkgray;
+    margin-left: 5px;
+}
+
+.date{
+    margin-left: 5px;
+
+}
+
+.header-content {
+    display: flex;
+    width: 600px;
+    height: auto;
+    align-items: start;
+    margin-bottom: 10px;
+}
